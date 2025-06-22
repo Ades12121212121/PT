@@ -17,6 +17,11 @@ Sistema avanzado de entrenamiento y mejora de prompts de IA con interfaz gráfic
 - LM Studio con modelo Llama 3.2 3B
 - Conexión a internet (para instalar dependencias)
 
+## Screenshots
+![2025-06-21 18_50_56-](https://github.com/user-attachments/assets/cb1211f8-9a5e-41e6-a68c-6bc291701403)
+![2025-06-21 18_50_46-LM Studio](https://github.com/user-attachments/assets/d037032a-a28d-4728-bbe4-39885410d0ff)
+
+
 ## 🚀 Instalación Rápida
 
 1. **Clona o descarga el proyecto**
