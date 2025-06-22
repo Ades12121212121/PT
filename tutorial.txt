@@ -1,0 +1,84 @@
+🚀 TUTORIAL COMPLETO - PROMPT TRAINER PRO
+==========================================
+
+📋 REQUISITOS PREVIOS
+---------------------
+1. Python 3.8 o superior
+2. LM Studio instalado y configurado
+3. Modelo Llama 3.2 3B cargado en LM Studio
+
+🔧 INSTALACIÓN RÁPIDA
+---------------------
+1. Abre una terminal en la carpeta del proyecto
+2. Ejecuta: pip install -r requirements.txt
+3. ¡Listo! Ya puedes usar el sistema
+
+⚙️ CONFIGURACIÓN DEL SERVIDOR
+-----------------------------
+1. Abre LM Studio
+2. Carga el modelo "Llama 3.2 3B Instruct"
+3. Ve a "Local Server" y activa el servidor
+4. Asegúrate que esté en el puerto 1234
+5. El servidor debe estar en: http://127.0.0.1:1234
+
+📁 ESTRUCTURA DE CARPETAS
+-------------------------
+El sistema busca los prompts en la carpeta "@/PROMPTS"
+Asegúrate de tener esta estructura:
+
+@/PROMPTS/
+├── Cursor Prompts/
+├── Devin AI/
+├── Dia/
+├── Junie/
+├── Manus Agent Tools & Prompt/
+├── Replit/
+└── Windsurf/
+
+🎯 CÓMO USAR EL SISTEMA
+-----------------------
+1. Ejecuta: python prompt_trainer_qt.py
+2. Haz clic en "🧠 Entrenar Modelo" para procesar todos los prompts
+3. Escribe tu prompt en el área de texto
+4. Haz clic en "✨ Mejorar Prompt" para obtener una versión mejorada
+5. El resultado se mostrará en tiempo real con streaming
+
+🔧 CONFIGURACIÓN AVANZADA
+-------------------------
+Si necesitas cambiar el servidor o puerto:
+1. Edita el archivo config.py
+2. Modifica las variables host y port
+3. Reinicia la aplicación
+
+📊 CARACTERÍSTICAS
+------------------
+✅ Extracción automática de prompts
+✅ Análisis de patrones con múltiples threads
+✅ Streaming en tiempo real
+✅ Interfaz moderna y responsive
+✅ Caché inteligente para mejor rendimiento
+✅ Soporte para archivos .txt y .json
+
+🚨 SOLUCIÓN DE PROBLEMAS
+-------------------------
+Error de conexión:
+- Verifica que LM Studio esté ejecutándose
+- Confirma que el puerto 1234 esté disponible
+- Revisa la configuración en config.py
+
+Error de prompts no encontrados:
+- Verifica que la carpeta "@/PROMPTS" exista
+- Asegúrate de que contenga archivos .txt o .json
+
+Error de dependencias:
+- Ejecuta: pip install -r requirements.txt
+- Si persiste, instala manualmente: pip install PyQt6 requests numpy
+
+💡 CONSEJOS
+-----------
+- El primer entrenamiento puede tardar más tiempo
+- Usa prompts específicos para mejores resultados
+- El sistema mejora con más prompts en la carpeta
+- Guarda tus prompts mejorados para uso futuro
+
+🎉 ¡Disfruta usando Prompt Trainer Pro! 
